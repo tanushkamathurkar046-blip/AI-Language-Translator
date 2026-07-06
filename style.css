@@ -1,0 +1,514 @@
+/* Background */
+.stApp {
+    background: linear-gradient(135deg, #4F46E5, #9333EA);
+    color: white;
+}
+
+/* Main Container */
+.block-container {
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(18px);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: white !important;
+    font-size: 3rem !important;
+    font-weight: bold;
+}
+
+/* Subheading */
+h3,h2,p,label {
+    color: white !important;
+}
+
+/* Text Area */
+textarea {
+    background: rgba(255,255,255,0.15) !important;
+    color: white !important;
+    border-radius: 12px !important;
+    border: none !important;
+}
+
+/* Select Box */
+.stSelectbox div[data-baseweb="select"] {
+    background: rgba(255,255,255,0.15);
+    border-radius: 12px;
+}
+
+/* Button */
+.stButton button {
+    width: 100%;
+    background: linear-gradient(90deg,#06B6D4,#3B82F6);
+    color: white;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:15px;
+    height:55px;
+    border:none;
+    transition:0.3s;
+}
+
+.stButton button:hover{
+    transform:scale(1.03);
+    background:linear-gradient(90deg,#2563EB,#7C3AED);
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#1E1B4B;
+}
+
+/* Success Message */
+.stSuccess{
+    border-radius:15px;
+}
+
+/* Warning */
+.stWarning{
+    border-radius:15px;
+}
+/* ===== Google Font ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* ===== App Background ===== */
+.stApp{
+    background: linear-gradient(135deg,#0F172A,#1E3A8A,#4F46E5);
+    background-size:400% 400%;
+    animation: gradient 12s ease infinite;
+    font-family:'Poppins',sans-serif;
+}
+
+@keyframes gradient{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+/* ===== Main Container ===== */
+
+.block-container{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:25px;
+    padding:40px;
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+}
+
+/* ===== Heading ===== */
+
+h1{
+    color:white !important;
+    text-align:center;
+    font-size:52px !important;
+    font-weight:700 !important;
+}
+
+h2,h3,h4,p,label{
+    color:white !important;
+}
+
+/* ===== Text Area ===== */
+
+textarea{
+    background:rgba(255,255,255,.12)!important;
+    color:white!important;
+    border-radius:18px!important;
+    border:2px solid rgba(255,255,255,.15)!important;
+    font-size:18px!important;
+}
+
+/* ===== Input ===== */
+
+input{
+    color:white!important;
+}
+
+/* ===== Selectbox ===== */
+
+div[data-baseweb="select"]{
+    background:rgba(255,255,255,.12)!important;
+    border-radius:15px!important;
+}
+
+/* ===== Button ===== */
+
+.stButton>button{
+
+    width:100%;
+    height:58px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    color:white;
+
+    background:linear-gradient(90deg,#06B6D4,#2563EB,#7C3AED);
+
+    background-size:250%;
+
+    transition:.4s;
+
+}
+
+.stButton>button:hover{
+
+    transform:translateY(-3px);
+
+    background-position:right;
+
+    box-shadow:0 10px 30px rgba(59,130,246,.45);
+
+}
+
+/* ===== Download Button ===== */
+
+.stDownloadButton button{
+
+    width:100%;
+
+    background:#22C55E!important;
+
+    color:white!important;
+
+    border-radius:15px;
+
+    height:50px;
+
+    font-weight:600;
+
+}
+
+/* ===== Success ===== */
+
+.stSuccess{
+
+    border-radius:15px;
+
+}
+
+/* ===== Warning ===== */
+
+.stWarning{
+
+    border-radius:15px;
+
+}
+
+/* ===== Info ===== */
+
+.stInfo{
+
+    border-radius:15px;
+
+}
+
+/* ===== Sidebar ===== */
+
+section[data-testid="stSidebar"]{
+
+    background:#111827;
+
+}
+
+section[data-testid="stSidebar"] *{
+
+    color:white!important;
+
+}
+
+/* ===== Audio ===== */
+
+audio{
+
+    width:100%;
+
+}
+
+/* ===== Footer ===== */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+/* ===== Toolbar ===== */
+
+header{
+
+    visibility:hidden;
+
+}
+
+.hero{
+
+padding:40px;
+
+border-radius:20px;
+
+background:linear-gradient(135deg,#2563EB,#7C3AED);
+
+text-align:center;
+
+margin-bottom:25px;
+
+color:white;
+
+box-shadow:0px 10px 30px rgba(0,0,0,.25);
+
+}
+
+.hero h1{
+
+font-size:55px;
+
+margin-bottom:15px;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+color:white;
+
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:22px;
+}
+/* Background */
+
+.stApp{
+    background: linear-gradient(135deg,#0F172A,#1E293B);
+    color:white;
+}
+
+/* Heading */
+
+h1{
+    text-align:center;
+    color:#38BDF8;
+    font-size:48px;
+    font-weight:bold;
+}
+
+/* Subtitle */
+
+p{
+    color:#CBD5E1;
+}
+
+/* Text Area */
+
+textarea{
+    border-radius:12px !important;
+    border:2px solid #3B82F6 !important;
+}
+
+/* Selectbox */
+
+.stSelectbox{
+    border-radius:10px;
+}
+
+/* Buttons */
+
+.stButton>button{
+
+    width:100%;
+    height:52px;
+
+    border:none;
+    border-radius:12px;
+
+    background:linear-gradient(90deg,#2563EB,#7C3AED);
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+}
+
+.stButton>button:hover{
+
+    transform:scale(1.02);
+
+    transition:.3s;
+
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+
+background:#111827;
+
+}
+textarea{
+    background:#1F2937 !important;
+    color:white !important;
+    border-radius:15px !important;
+    padding:15px !important;
+    font-size:18px !important;
+}
+.stTextArea{
+
+margin-bottom:20px;
+
+}
+.stSelectbox div[data-baseweb="select"]{
+    background:#1F2937;
+    border-radius:12px;
+}
+
+.stButton button{
+
+background:linear-gradient(90deg,#2563EB,#7C3AED);
+
+height:55px;
+
+font-size:20px;
+
+font-weight:bold;
+
+border-radius:15px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
+.stButton>button{
+
+background:linear-gradient(90deg,#2563EB,#7C3AED,#2563EB);
+
+background-size:300%;
+
+animation:gradient 4s ease infinite;
+
+transition:.3s;
+
+}
+
+@keyframes gradient{
+
+0%{background-position:0%;}
+
+50%{background-position:100%;}
+
+100%{background-position:0%;}
+
+}
+
+.hero{
+
+animation:fadeUp 1s ease;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+.result-card{
+
+padding:25px;
+
+border-radius:20px;
+
+background:#1E293B;
+
+transition:.4s;
+
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+.result-card:hover{
+
+transform:scale(1.02);
+
+box-shadow:0 20px 40px rgba(0,0,0,.5);
+
+}
+.welcome-card{
+background:linear-gradient(135deg,#2563EB,#7C3AED);
+padding:25px;
+border-radius:18px;
+text-align:center;
+color:white;
+margin-bottom:20px;
+box-shadow:0px 8px 20px rgba(0,0,0,.25);
+}
+
+.welcome-card h2{
+margin:0;
+font-size:32px;
+}
+
+.welcome-card p{
+font-size:18px;
+margin-top:10px;
+color:white;
+}
+.footer{
+
+text-align:center;
+
+padding:30px;
+
+margin-top:40px;
+
+border-top:1px solid #374151;
+
+color:#9CA3AF;
+
+}
+
+.stButton button{
+
+height:60px;
+
+font-size:22px;
+
+font-weight:bold;
+
+border-radius:15px;
+
+background:linear-gradient(90deg,#2563EB,#7C3AED);
+
+color:white;
+
+}

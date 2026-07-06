@@ -1,0 +1,4 @@
+.venv/
+__pycache__/
+translated.mp3
+*.pyc
